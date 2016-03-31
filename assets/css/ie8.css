@@ -1,44 +1,29 @@
 /*
-	ZeroFour by HTML5 UP
+	Astral by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Basic */
 
-	.button,
-	.image img {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Wrappers */
-
-	#header-wrapper {
-		background: url("../../images/header.jpg");
-		background-position: center center;
+	body {
+		background-image: url("images/bg.jpg");
 		background-size: cover;
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
-	#main-wrapper .main-wrapper-style1,
-	#main-wrapper .main-wrapper-style3 {
-		background: #f8f8f8;
-	}
+/* Section/Article */
 
-/* Header */
-
-	#header .inner {
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	section > .last-child, section.last-child, article > .last-child, article.last-child {
+		margin-bottom: 0;
 	}
 
 /* Nav */
 
-	.dropotron {
-		box-shadow: 0;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	#nav a span {
+		display: none !important;
 	}
 
-		.dropotron.level-0 {
-			box-shadow: 0;
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-		}
+	#nav a:before {
+		font-size: 1.75em;
+	}
